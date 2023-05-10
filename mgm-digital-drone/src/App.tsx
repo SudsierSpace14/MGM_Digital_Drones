@@ -1,6 +1,7 @@
+import { Footer } from "./components/Footer"
 import { Navbar } from "./components/Navbar"
-import { Building } from "./sections/Building"
 import { Hero } from "./sections/Hero"
+import { Portfolio } from "./sections/Portfolio"
 import { RankedWorks } from "./sections/RankedWorks"
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Navbar />
       <Hero />
       <RankedWorks />
-      <Building />
+      <Portfolio />
+      <Footer />
     </>
   )
 }

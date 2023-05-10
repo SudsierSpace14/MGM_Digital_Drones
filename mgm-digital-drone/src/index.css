@@ -30,6 +30,10 @@ a:hover {
   color: #2e2e2e;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -82,8 +86,15 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   button {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
   }
+}
+
+/* layout */
+.container {
+  max-width: 1330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero {
@@ -118,4 +129,11 @@ video {
   .menu {
     display: block;
   }
+}
+
+#menu a::before {
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
 }

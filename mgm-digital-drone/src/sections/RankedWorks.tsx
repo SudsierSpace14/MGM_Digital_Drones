@@ -4,7 +4,7 @@ import Img2 from '../assets/ilhabela/ilhabela2.jpg'
 export const RankedWorks = () => {
     return (
         <section id="ranked-works" className="mt-4 px-4">
-            <ul className="flex flex-wrap gap-4 pr-4 lg:pl-4">
+            <ul className="flex flex-wrap gap-4 pr-4">
                 <li className="relative flex-1 opacity-80 hover:opacity-100 transition-all min-w-[250px]">
                     <img src={Img2} alt="" className="h-full" />
 
