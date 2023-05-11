@@ -6,8 +6,12 @@ export const Hero = () => {
             <div className='flex flex-col items-center gap-6 shadow-filter text-center'>
                 <h1 className='px-4'>MGM DIGITAL DRONES</h1>
                 <div className='flex gap-4'>
-                    <button>Contato</button>
-                    <button>Conheça nosso site</button>
+                    <a href="http://mgmdigital.com.br/contato" className='text-white'>
+                        <button>Contato</button>
+                    </a>
+                    <a href="http://mgmdigital.com.br/" className='text-white'>
+                        <button>Conheça nosso site</button>
+                    </a>
                 </div>
 
             </div>

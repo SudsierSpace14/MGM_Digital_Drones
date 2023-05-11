@@ -1,16 +1,15 @@
+import { BrowserRouter } from "react-router-dom"
 import { Footer } from "./components/Footer"
 import { Navbar } from "./components/Navbar"
-import { Hero } from "./sections/Hero"
-import { Portfolio } from "./sections/Portfolio"
-import { RankedWorks } from "./sections/RankedWorks"
+import { Router } from "./Router"
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <RankedWorks />
-      <Portfolio />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
       <Footer />
     </>
   )

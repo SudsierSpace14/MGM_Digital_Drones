@@ -15,8 +15,7 @@ const Item = (props: { img: string }) => (
 export const Portfolio = () => {
     return (
         <section id="portfolio">
-            <div className="text-center mt-10">
-                <h1>Portfolio</h1>
+            <div className="text-center">
                 <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 p-4 pr-8">
                     {images.map(img => (
                         <Item img={img} key={img} />
