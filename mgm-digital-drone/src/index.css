@@ -114,7 +114,12 @@ button:focus-visible {
 }
 
 .shadow-filter {
-  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.7))
+  --shadow-filter-color: rgba(0, 0, 0, 0.7);
+  filter: drop-shadow(0 0 1rem var(--shadow-filter-color))
+}
+
+.shadow-full-opacity {
+  --shadow-filter-color: rgba(0, 0, 0, 1);
 }
 
 .drone-video {
