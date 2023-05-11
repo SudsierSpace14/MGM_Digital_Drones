@@ -16,7 +16,7 @@ export const Portfolio = () => {
     return (
         <section id="portfolio">
             <div className="text-center">
-                <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 p-4 pr-8">
+                <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 p-4 pr-8 shadow-filter">
                     {images.map(img => (
                         <Item img={img} key={img} />
                     ))}
