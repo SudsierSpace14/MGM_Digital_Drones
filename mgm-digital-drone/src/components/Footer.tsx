@@ -25,19 +25,19 @@ export const Footer = () => {
                         </h2>
                         <ul aria-labelledby="footerHeading0" className="flex flex-col gap-2">
                             <li>
-                                <a href="https://www.upwork.com/freelancers/~01293a852ce6f0f0c7" className="link whitespace-nowrap">
+                                <a href="http://mgmdigital.com.br/modernizacao-com-iluminacao-led-chega-a-80-e-traz-mais-seguranca-para-pindamonhangaba-obras-em-pindamonhangaba" className="link whitespace-nowrap">
                                     Drones
                                 </a>
                             </li><li>
-                                <a href="https://www.linkedin.com/in/gabriel-rodrigues-032a33271/" className="link whitespace-nowrap">
+                                <a href="http://mgmdigital.com.br/podcast" className="link whitespace-nowrap">
                                     Studio
                                 </a>
                             </li><li>
-                                <a href="https://www.fiverr.com/sudsierspace" className="link whitespace-nowrap">
+                                <a href="https://goo.gl/maps/a9qJhkfNhfW9PNyv5" className="link whitespace-nowrap">
                                     Endereço
                                 </a>
                             </li><li>
-                                <a href="https://www.instagram.com/sudsierspace14/" className="link whitespace-nowrap">
+                                <a href="http://mgmdigital.com.br/Index.aspx" className="link whitespace-nowrap">
                                     Patrocinadores
                                 </a>
                             </li>
@@ -64,6 +64,9 @@ export const Footer = () => {
                 </div>
             </nav>
             <hr className="border-astro-gray-500 pb-10" />
+            <h3 className='text-2xl mb-10'>
+                Site feito por <a className='sudkit' href="https://sudsier-space-toolkit-react-vite.vercel.app/">SudsierSpace Toolkit</a>
+            </h3>
         </footer>
     )
 }
